@@ -1,0 +1,55 @@
+#titleBackground {
+  background-color: #C5C5C5;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#titleNav {
+  background-color: #C5C5C5;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+#titleName {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 120px;
+}
+
+#titleFlipper {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: #E1400C;
+}
+
+#aboutSection {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#sectionHeader {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #C5C5C5
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+#portfolioSection {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#contactSection {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
