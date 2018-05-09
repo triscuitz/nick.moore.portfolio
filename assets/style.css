@@ -48,6 +48,14 @@ p {
   width: 100%;
 }
 
+.card {
+  height: 575px;
+}
+
+.card-img-top {
+  width: 99%;
+}
+
 #contactSection {
   position: relative;
   height: 100%;
