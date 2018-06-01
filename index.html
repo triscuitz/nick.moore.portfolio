@@ -4,122 +4,213 @@
     <title>Nick Moore</title>
 
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+
 
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" id="titleNav">
+<!-- Main Nav -->
+<nav class="navbar navbar-expand-lg navbar-dark" class=titleNav id="topNav">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#aboutSection">About</a>
-      <a class="nav-item nav-link" href="#portfolioSection">Portfolio</a>
+      <a class="nav-item nav-link" href="#aboutSection" style="color:#125492">About</a>
+      <a class="nav-item nav-link" href="#portfolioSection" style="color:#125492">Portfolio</a>
     </div>
   </div>
 </nav>
 
-<!-- Main Landing -->
+<!-- main title -->
 <div class="jumbotron jumbotron-fluid" id="titleBackground">
-  <div class="container">
-    <h1 id="titleName">NICK MOORE</h1>
-    <h1 id="titleFlipper">Developer</h1>
+  <h1 id="titleName">NICK MOORE</h1>
+  <h1 id="titleFlipper">Developer</h1>
+
+  <div class="justify-content-center row" id="iconSet">
+    <div class="col-1">
+      <a href="https://www.linkedin.com/in/nick-a-moore" target="_blank"><i class="fab fa-linkedin-in" id="icon" style="color:#125492"></i></a>
+    </div>
+    <div class="col-1">
+      <a href="https://github.com/triscuitz" target="_blank"><i class="fab fa-github" id="icon" style="color:#125492"></i></a>
+    </div>
+    <div class="col-1">
+      <a href="https://docs.google.com/document/d/1NCQKPfY8KxbuJ-g7qYHg9VlGj5MK23wTH684fBV6sn8/edit?usp=sharing" target="_blank"><i class="fas fa-file-alt" id="icon" style="color:#125492"></i></a>
+    </div>
   </div>
 </div>
 
-<!-- about me -->
-<div class="container" id="aboutSection">
+
+
+<!-- about me section -->
+<div id="aboutSection">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-8"
       <h2 id="sectionHeader">About Me</h2>
-        <hr/>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="./assets/images/me.jpg" class=".img-responsive" alt="Pic of Nick" width="100%">
+    </div>
+
+<!-- about nav -->
+    <div class="col-md-4">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="titleNav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#topNav" style="color:#125492">Home</a>
+            <a class="nav-item nav-link" href="#portfolioSection" style="color:#125492">Portfolio</a>
           </div>
-          <div class="col-md-8">
-            <p>
-              My name is Nick Moore, I moved to Denver in 2008 to finish my BS degree at Rocky Mountain College
-              of Art and Design. I first came out to Denver when I was 12 years old and knew that I needed to live
-              here one day. And now I do! Yay! I live here with my wife, Kate and our fur baby, Beaux. I am currently
-              a graphic designer, and looking to make a change in career to web developement and this is the
-              first step in that goal. When I'm not working I like to watch movies, play video games (console), drink beer, and do typical
-              Colorado stuff (hiking, snowboarding, camping). I am very excited to be in this class and very excited
-              to get to know and work with everyone! Lets learn the things! ALL THE THINGS!!!!
-          </p>
         </div>
-      </div>
+      </nav>
+    </div>
+
+  </div>
+
+  <hr/>
+
+<!-- about info -->
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-4">
+      <img src="./assets/images/me.jpg" class=".img-responsive" alt="Pic of Nick" width="100%">
+    </div>
+    <div class="col-md-6">
+      <p>
+        I'm a full stack developer, though I focus on front end development.
+        I like learning new libraries and frameworks and seeing what I can do with them.
+        In addition to developing I am also a graphic designer so I understand the importance of pixel perfect work!
+        <br><br>
+        Proficiencies:
+        <br>
+        <div class="row">
+          <div class="col-4">
+            HTML5
+              <br>
+            CSS3
+              <br>
+            Javascript
+              <br>
+            jQuery
+              <br>
+            Node.js
+          </div>
+          <div class="col-4">
+            Bootstrap
+              <br>
+            Semantic UI
+              <br>
+            Zurb Foundation
+              <br>
+            Express
+              <br>
+            Handlebars
+          </div>
+          <div class="col-4">
+            React
+              <br>
+            MongoDB
+              <br>
+            MySQL
+              <br>
+            Firebase
+          </div>
+        </div>
+     </p>
+    </div>
+    <div class="col-md-1">
     </div>
   </div>
 </div>
 
-<!-- portfolio -->
-<div class="container" id="portfolioSection">
+<!-- portfolio section -->
+<div id="portfolioSection">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-8"
       <h2 id="sectionHeader">Portfolio</h2>
-        <hr/>
     </div>
+
+<!-- portfolio nav -->
+    <div class="col-md-4">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="titleNav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#topNav" style="color:#125492">Home</a>
+            <a class="nav-item nav-link" href="#aboutSection" style="color:#125492">About</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
   </div>
 
-  <div class="row">
-    <div class="col-md-6">
-      <div class="card" style="width: 100%">
-        <img class="card-img-top" src="./assets/images/floogleMaps.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">floogeMaps</h5>
-          <p class="card-text">This is an API driven app. It uses the googlemaps API and the flickr API
+  <hr/>
+
+<!-- portfolio cards -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="./assets/images/floogleMaps.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">floogeMaps</h5>
+              <p class="card-text">This is an API driven app. It uses the googlemaps API and the flickr API
                                to search for an area and return photos from that area.
-          </p>
-          <a href="https://triscuitz.github.io/floogleMaps/" class="btn btn-outline-info" target="_blank">Visit floogleMaps</a>
+              </p>
+              <a href="https://triscuitz.github.io/floogleMaps/" class="btn btn-outline-info" target="_blank">Visit floogleMaps</a>
+            </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-6">
-      <div class="card" style="width: 100%">
-        <img class="card-img-top" src="./assets/images/quickclinic.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">quickclinic</h5>
-          <p class="card-text">This is an patient management app built in the MVC framework. The app utilizes MySQL for
+      <div class="col-md-6">
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="./assets/images/quickclinic.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">quickclinic</h5>
+              <p class="card-text">This is an patient management app built in the MVC framework. The app utilizes MySQL for
                                patient information and Firebase for user authentication. It's a Node.js app that also
                                uses express and handlebars for its view engine.
-          </p>
-          <a href="https://fast-shelf-55787.herokuapp.com/" class="btn btn-outline-info" target="_blank">Heroku Site</a>
+              </p>
+              <a href="https://fast-shelf-55787.herokuapp.com/" class="btn btn-outline-info" target="_blank">Heroku Site</a>
+            </div>
         </div>
       </div>
     </div>
-  </div>
-  <br/>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="card" style="width: 100%">
-        <img class="card-img-top" src="./assets/images/mgr.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Music Gear Raffle</h5>
-          <p class="card-text">An auction app built in react. The app has uses MongoDB for the auction
+
+    <br/>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="./assets/images/mgr.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Music Gear Raffle</h5>
+              <p class="card-text">An auction app built in react. The app has uses MongoDB for the auction
                                items, Firebase for authentication, and Stripe for payment. The front end
                                is a combination of Bootstrap and CSS.
-          </p>
-          <a href="https://mysterious-brook-83445.herokuapp.com/" class="btn btn-outline-info" target="_blank">Herkou Site</a>
+              </p>
+              <a href="https://mysterious-brook-83445.herokuapp.com/" class="btn btn-outline-info" target="_blank">Herkou Site</a>
+            </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-6">
-      <div class="card" style="width: 100%">
-        <img class="card-img-top" src="./assets/images/reactGame.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">React Memory Game</h5>
-          <p class="card-text">A react based memory game. </p>
-          <a href="https://react-memory-game-two.herokuapp.com/" class="btn btn-outline-info" target="_blank">Heroku Site</a>
+      <div class="col-md-6">
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="./assets/images/reactGame.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">React Memory Game</h5>
+              <p class="card-text">A react based memory game. </p>
+              <a href="https://react-memory-game-two.herokuapp.com/" class="btn btn-outline-info" target="_blank">Heroku Site</a>
+            </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

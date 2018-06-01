@@ -1,13 +1,12 @@
 #titleBackground {
-  background-color: #C5C5C5;
   position: relative;
   height: 100%;
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 
-#titleNav {
-  background-color: #C5C5C5;
+.titleNav {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
 }
@@ -22,7 +21,14 @@
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 80px;
-  color: #E1400C;
+  color: #125492;
+}
+#iconSet{
+  padding-top: 100px;
+}
+
+#icon {
+  font-size: 45px;
 }
 
 #aboutSection {
@@ -34,7 +40,9 @@
 #sectionHeader {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  color: #C5C5C5
+  font-size: 28pt;
+  color: #125492;
+  padding-left: 30px;
 }
 
 p {
